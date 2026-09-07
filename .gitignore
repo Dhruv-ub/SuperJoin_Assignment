@@ -1,0 +1,58 @@
+# ==============================================================================
+# Git Ignore Configuration for Superjoin Assignment
+# ==============================================================================
+
+# Node dependencies & caches
+node_modules/
+frontend/node_modules/
+.vite/
+frontend/.vite/
+
+# Frontend production build (KEEP this tracked so Azure App Service serves the UI)
+!frontend/dist/
+!frontend/dist/**
+
+# Python caches, virtual environments & bytecode
+__pycache__/
+backend/__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+ENV/
+*.egg-info/
+.pytest_cache/
+
+# Sensitive environment variables & API keys
+*.env
+.env
+backend/.env
+
+# Temporary files & OS files
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Ignore uploaded PDFs in storage (keep .gitkeep so folder structure is preserved)
+storage/uploads/*.pdf
+!storage/uploads/.gitkeep
+backend/storage/uploads/*.pdf
+!backend/storage/uploads/.gitkeep
+
+# Ignore unnecessary text files (keep requirements.txt for deployment)
+*.txt
+!requirements.txt
+
+# Ignore unnecessary markdown files (keep root README.md and starter-datasets README)
+agent.md
+SKILL.md
+DEPLOY_AZURE.md
+frontend/README.md
+
+# Assistant scratch & temporary directories
+.system_generated/
+.gemini/
+scratch/
