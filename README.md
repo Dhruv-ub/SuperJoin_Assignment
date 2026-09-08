@@ -50,7 +50,7 @@ This project uses Google's free tier (`gemini-3.6-flash`). It costs $0 and needs
 
 ## Video Demo (Under 3 Minutes)
 
-- **Video Link**: [Watch the Video](https://drive.google.com/file/d/1ntdVBFqm1Ewoh1IUR3zKbmNmMUdVSUAa/view?usp=sharing)
+- **Video Link**: [Watch the Video](https://drive.google.com/file/d/1nWC36dzb4VwNt7ZURnB_WKX9Qy5Ijzf_/view?usp=sharing)
   1. Open `http://127.0.0.1:8000`.
   2. Click `+ Load Sample PDFs` (or drag and drop PDFs).
   3. Click `Analyze Documents`.
