@@ -190,6 +190,5 @@ Here are the 4 cases found across the Delhivery starter documents:
 │   └── dist/            # Built web files (served directly by FastAPI)
 ├── starter-datasets/    # The sample Delhivery and Macroeconomy PDFs
 ├── run.py               # Single command to run everything
-├── agent.md             # The original assignment instructions
 └── README.md            # This document
 ```
