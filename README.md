@@ -2,7 +2,7 @@
 
 A simple web app and API that takes PDF documents, pulls out facts, links them to exact quotes and page numbers, and compares them to find where they agree, disagree, or explain each other.
 
-Built for the **Superjoin Engineering Intern Assignment (VIT 2026)**.
+Built for the **Superjoin Intern Assignment**.
 
 ---
 
@@ -26,8 +26,6 @@ Open your browser:
 
 ### 3. Cloud Deployment (Azure App Service)
 The codebase includes all Azure configuration files (`app.py`, `requirements.txt`, `startup.sh`).
-To get a public hosted link (`https://<your-app-name>.azurewebsites.net`), follow the step-by-step instructions in:
-- **[DEPLOY_AZURE.md](file:///w:/superjoin%20assignment/DEPLOY_AZURE.md)**
 
 ---
 
